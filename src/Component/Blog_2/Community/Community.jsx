@@ -6,7 +6,7 @@ const Community = () => {
       {/* Features Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:mx-2 lg:mx-8 mb-16 bg-white">
         {features.map((feature, index) => (
-          <div key={index} className="p-6 bg-white border shadow-md rounded-lg">
+          <div key={index} className="p-6 bg-white border shadow-md rounded-lg" data-aos="zoom-in">
             <div className="flex items-center mb-4">
               <span className="text-yellow-500 text-2xl mr-3">
                 {feature.icon}
@@ -26,12 +26,12 @@ const Community = () => {
           <img
             src="https://img.freepik.com/premium-photo/people-holding-hands-field-sunset-sky-is-orange-sun-is-setting-people-are-all-different-ages-races_14117-531718.jpg?uid=R153861007&ga=GA1.1.725836799.1712554847&semt=ais_hybrid"
             alt="Courier"
-            className="rounded-lg shadow-lg w-full"
+            className="rounded-lg shadow-lg w-full" data-aos="zoom-in-down"
           />
           <div className="absolute bottom-4 left-4 w-16 h-1 bg-yellow-500"></div>
         </div>
 
-        <div className="w-full lg:w-1/2 text-center lg:text-left mt-8 lg:mt-0 bg-white">
+        <div className="w-full lg:w-1/2 text-center lg:text-left mt-8 lg:mt-0 bg-white" data-aos="zoom-in-left">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Join the community Quickeat
           </h2>
