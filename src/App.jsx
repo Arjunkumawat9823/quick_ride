@@ -6,13 +6,12 @@ import AboutPage from "./Component/AboutPage/AboutPage";
 import Restaurant from "./Component/RestaurantPage/Index_Restauran"; // Ensure this exists
 import RestaurantDetailPage from "./Component/Restaurant_Detail_Page/RestaurantDetailPage_One";
 import Contactus from "./Component/Contact/Contactus";
-import ParallaxComponent from "./Component/Parallax";
-import Service from "./Component/Service/Service";
+ import Service from "./Component/Service/Service";
 import Blog from "./Component/Blog/Blog";
+import Blog_2 from "./Component/Blog_2/Blog_2";
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
-  
 
   useEffect(() => {
     const updatePosition = (e) => {
@@ -35,13 +34,14 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/restourant" element={<Restaurant />} />
         <Route path="/Blog" element={<Blog />} />
+        // Blog routing
+        <Route path="/Blog/:id" element={<Blog />} />
         <Route path="/Restaurant/:id" element={<RestaurantDetailPage />} />
         <Route path="/service" element={<Service />} />
+        <Route path="/Blog_2" element={<Blog_2 />} />
         <Route path="/contacts" element={<Contactus />} />
-        <Route path="/parallax" element={<ParallaxComponent />} />
-        
+        {/* <Route path="/parallax" element={<ParallaxComponent />} /> */}
       </Routes>
-      
     </BrowserRouter>
   );
 }

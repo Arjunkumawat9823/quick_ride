@@ -18,7 +18,7 @@ const Footer = () => {
             alt="QuickEat Logo"
             className="h-16 w-auto mb-4 transition-transform duration-300 hover:scale-105"
           />
-          <p className="text-white   font-semibold text-3xl md:text-2xl">
+          <p className="text-white   font-semibold text-3xl md:text-3xl lg:text-3xl">
             The Best Restaurants in Your Home
           </p>
           <p className="text-base  mt-2 ">

@@ -47,8 +47,9 @@ const Navbar = () => {
               Restaurant <IoMdArrowDropdown className="ml-1" />
             </Link>
             <Link to="/Blog" className="p-2 mx-3 rounded bg-black hover:text-white flex items-center">
-              Pages <IoMdArrowDropdown className="ml-1" />
+            Blog <IoMdArrowDropdown className="ml-1" />
             </Link>
+            <Link to="/Blog_2" className="p-2 mx-3 rounded bg-black hover:text-white">Blog-2</Link>
             <Link to="/contacts" className="p-2 mx-3 rounded bg-black hover:text-white">Contacts</Link>
           </div>
 

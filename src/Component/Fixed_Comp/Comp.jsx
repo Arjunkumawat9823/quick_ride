@@ -16,11 +16,27 @@ const Comp = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const menuItems = [
-    { icon: <FaFacebook />, bgColor: "bg-[#3E7BE9]" },
-    { icon: <IoLogoWhatsapp />, bgColor: "bg-[#1BA201]" },
-    { icon: <FaTwitter />, bgColor: "bg-black" },
-    { icon: <FaInstagram />, bgColor: "bg-[#B90095]" },
-    { icon: <FaYoutube />, bgColor: "bg-[#F70000]" },
+    {
+      href: "https://www.facebook.com",
+      icon: <FaFacebook />,
+      bgColor: "bg-[#3E7BE9]",
+    },
+    {
+      href: "https://wa.me/1234567890",
+      icon: <IoLogoWhatsapp />,
+      bgColor: "bg-[#1BA201]",
+    },
+    { href: "https://twitter.com", icon: <FaTwitter />, bgColor: "bg-black" },
+    {
+      href: "https://instagram.com",
+      icon: <FaInstagram />,
+      bgColor: "bg-[#B90095]",
+    },
+    {
+      href: "https://youtube.com",
+      icon: <FaYoutube />,
+      bgColor: "bg-[#F70000]",
+    },
   ];
 
   return (
@@ -49,11 +65,14 @@ const Comp = () => {
       >
         {menuItems.map((item, index) => (
           <li
+            
             key={index}
             className="transition-all  text-xl md:text-xl lg:text-2xl duration-300"
           >
             <a
-              href="#"
+             href={item.href}
+             target="_blank"
+             rel="noopener noreferrer"
               className={`flex items-center text-2xl    justify-center w-12 h-12 rounded-full shadow-lg ${item.bgColor}`}
             >
               {item.icon}
