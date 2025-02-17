@@ -10,6 +10,7 @@ import Contactus from "./Component/Contact/Contactus";
 import Blog from "./Component/Blog/Blog";
 import Blog_2 from "./Component/Blog_2/Blog_2";
 import Join_Courier from "./Component/Join_Courier_Section/Join_Courier";
+import Windowscrool from "./windowscrool";
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -30,6 +31,7 @@ function App() {
           transform: `translate(${position.x}px, ${position.y}px)`,
         }}
       ></div> */}
+      <Windowscrool/>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
@@ -41,6 +43,7 @@ function App() {
         <Route path="/service" element={<Service />} />
         <Route path="/Blog_2" element={<Blog_2 />} />
         <Route path="/contacts" element={<Contactus />} />
+        <Route path="/Join_Courier" element={<Join_Courier />} />
         <Route path="/Join_Courier" element={<Join_Courier />} />
        </Routes>
     </BrowserRouter>
