@@ -35,8 +35,7 @@ const HomePage = () => {
       <SubscribeSection />
       <Footer />
       <Comp/>
-      <FormPage/>
-
+ 
      </>
   );
 };
