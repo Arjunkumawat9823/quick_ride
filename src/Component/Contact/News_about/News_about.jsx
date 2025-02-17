@@ -20,10 +20,10 @@ const NewsAbout = () => {
             <div className="p-6">
               <h3 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h3>
               <p className="text-gray-600 mb-4">{item.description}</p>
-              <a href="#" className="text-yellow-500 font-semibold flex items-center space-x-1">
-                <span>Read More</span>
-                <span>&rarr;</span>
-              </a>
+              <span href="#" className="text-yellow-500 border inline-block  px-5 py-1 rounded font-semibold  whitespace-nowrap items-center space-x-1 cursor-pointer">
+  <span className="block">Read More</span>
+  {/* <span>&rarr;</span> */}
+</span>
               <div className="mt-4 flex items-center text-gray-500 text-sm space-x-4">
                 <span>👤 by Quickeat</span>
                 <span>📅 {item.date}</span>
