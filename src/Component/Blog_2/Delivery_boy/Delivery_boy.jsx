@@ -2,7 +2,7 @@ import React from "react";
 
 const DeliveryBoy = () => {
   return (
-    <div className=" py-12 px-6 md:px-10 lg:px-35">
+    <div className=" py-12 px-6 md:px-10 lg:px-7 max-w-5xl mx-auto">
       {/* Heading Section */}
       <h3 className="text-3xl font-bold text-amber-800 leading-tight my-6">
         H3 Massa massa ultricies mi quis hendrerit. Sed enim ut sem viverra

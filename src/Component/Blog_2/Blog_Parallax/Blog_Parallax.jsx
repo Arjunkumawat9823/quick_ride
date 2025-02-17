@@ -57,17 +57,17 @@ const ParallaxPart = () => {
         </div>
 
         {/* Quote Section */}
-        <div className="bg-black   appearance-none    py-12 mt-12 text-center">
+        <div className="bg-black max-w-5xl mx-auto my-12 mt-12 text-center">
           <div className="border-l-4 border-yellow-500 pl-4 italic text-white text-lg max-w-4xl mx-auto">
             <span className="text-yellow-500 text-4xl font-bold">“</span>
             Whenever you feel like criticizing any one, he told me, just
             remember that all the people in this world haven’t had the
             advantages that you’ve had.
             <span className="text-yellow-500 text-4xl font-bold">”</span>
-          </div>
-          <p className="text-gray-600 mt-4">
+          <p className="text-gray-600 mt-4 pb-5">
             Francis Scott Key Fitzgerald, "The Great Gatsby"
           </p>
+          </div>
         </div>
       </div>
     </div>

@@ -75,9 +75,9 @@ const Comment = ({ comment, isReply = false }) => {
 const CommentSection = () => {
   return (
     <div className="max-w-5xl mx-auto p-4 md:px-10  " >
-      <h2 className="text-2xl font-bold mb-4" data-aos="flip-left">9 Comments</h2>
+      <h2 className="text-4xl font-bold mb-4  " data-aos="flip-left">9 Comments</h2>
       {comments.map((comment) => (
-        <div key={comment.id}>
+        <div key={comment.id} >
           <Comment comment={comment} />
           {comment.replies.length > 0 && (
             <>
@@ -92,7 +92,7 @@ const CommentSection = () => {
         </div>
       ))}
 
-      <button className="mt-4 border border-orange-500 text-orange-500 px-4 py-2 rounded-lg flex items-center gap-1">
+      <button className="mt-4 border mx-auto max-w-5xl mx-auto border-orange-500 text-orange-500 px-4 py-2 rounded-lg flex items-center gap-1">
         See all comments <IoIosArrowDown />
       </button>
 
