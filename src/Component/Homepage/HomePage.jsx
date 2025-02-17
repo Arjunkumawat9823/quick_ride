@@ -12,8 +12,7 @@ import NewsSection from "./NewsSection/NewsSection";
 import SubscribeSection from "./SubscribeSection/SubscribeSection";
 import Footer from "./Footer/Footer";
 import Comp from "../Fixed_Comp/Comp";
-// import FormPage from "../Form_Page/FormPage";
- // import Data from "../../fetchData/data";
+ 
 
 
 const HomePage = () => {

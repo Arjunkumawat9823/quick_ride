@@ -68,6 +68,14 @@ const Footer = () => {
                 Contacts
               </Link>
             </li>
+            <li>
+              <Link
+                to="/Join_Courier"
+                className="hover:text-white transition duration-300"
+              >
+                Join_Courier
+              </Link>
+            </li>
           </ul>
         </div>
 

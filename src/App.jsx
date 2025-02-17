@@ -9,6 +9,7 @@ import Contactus from "./Component/Contact/Contactus";
  import Service from "./Component/Service/Service";
 import Blog from "./Component/Blog/Blog";
 import Blog_2 from "./Component/Blog_2/Blog_2";
+import Join_Courier from "./Component/Join_Courier_Section/Join_Courier";
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -40,8 +41,8 @@ function App() {
         <Route path="/service" element={<Service />} />
         <Route path="/Blog_2" element={<Blog_2 />} />
         <Route path="/contacts" element={<Contactus />} />
-        {/* <Route path="/parallax" element={<ParallaxComponent />} /> */}
-      </Routes>
+        <Route path="/Join_Courier" element={<Join_Courier />} />
+       </Routes>
     </BrowserRouter>
   );
 }

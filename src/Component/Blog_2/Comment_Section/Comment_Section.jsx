@@ -92,7 +92,7 @@ const CommentSection = () => {
         </div>
       ))}
 
-      <button className="mt-4 border mx-auto max-w-5xl mx-auto border-orange-500 text-orange-500 px-4 py-2 rounded-lg flex items-center gap-1">
+      <button className="mt-4 border mx-auto max-w-5xl   border-orange-500 text-orange-500 px-4 py-2 rounded-lg flex items-center gap-1">
         See all comments <IoIosArrowDown />
       </button>
 
