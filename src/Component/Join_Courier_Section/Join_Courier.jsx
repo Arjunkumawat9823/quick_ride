@@ -6,6 +6,7 @@ import Benefits_Section from './Benefits_Section/Benefits_Section'
 import Community from '../Blog_2/Community/Community'
 import News_about from '../Contact/News_about/News_about'
 import SubscriptionBanner from '../AboutPage/About_Slider/About_Slider'
+import Comp from '../Fixed_Comp/Comp'
 
 const Join_Courier = () => {
   return (
@@ -20,6 +21,7 @@ const Join_Courier = () => {
 
 
         <Footer/>
+        <Comp/>
       
     </div>
   )

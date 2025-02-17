@@ -99,7 +99,13 @@ const Navbar = () => {
               <Link to="/restourant" className="block py-4 text-xl rounded hover:underline">Restaurant</Link>
             </div>
             <div className="border-b block">
+              <Link to="/blog_2" className="block py-4 text-xl rounded hover:underline">blog_2</Link>
+            </div>
+            <div className="border-b block">
               <Link to="/service" className="block py-4 text-xl rounded hover:underline">Service</Link>
+            </div>
+            <div className="border-b block">
+              <Link to="/Join_Courier" className="block py-4 text-xl rounded hover:underline">Join_Courier</Link>
             </div>
             <div className="border-b block">
               <Link to="/contacts" className="block py-4 text-xl rounded hover:underline">Contacts</Link>

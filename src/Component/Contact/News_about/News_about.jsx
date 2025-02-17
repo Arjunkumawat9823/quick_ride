@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const NewsAbout = () => {
   return (
     <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8 bg-white">
@@ -24,7 +25,7 @@ const NewsAbout = () => {
   <span className="block">Read More</span>
   {/* <span>&rarr;</span> */}
 </span>
-              <div className="mt-4 flex items-center text-gray-500 text-sm space-x-4">
+              <div className="mt-4 flex items-center whitespace-nowrap text-gray-500 text-sm space-x-4">
                 <span>👤 by Quickeat</span>
                 <span>📅 {item.date}</span>
                 <span>👀 {item.views}</span>

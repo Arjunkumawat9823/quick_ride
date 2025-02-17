@@ -1,5 +1,6 @@
 import React from "react";
 
+import { FaLongArrowAltRight } from "react-icons/fa";
 const JoinCourierHero = () => {
   return (
     <div className="relative max-w-7xl mx-auto w-full  py-16 px-4  md:px-12 lg:px-20 flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-10">
@@ -15,8 +16,8 @@ const JoinCourierHero = () => {
       </div>
 
       <div className="relative z-10 max-w-xl    text-white text-center md:text-left ">
-        <p className="mb-6 mt-20 md:mt-20  lg:mt-30 text-sm  ">
-          Home = Blog
+        <p className="mb-6 mt-20 md:mt-20 whitespace-nowrap  lg:mt-30 text-sm  ">
+          Home <FaLongArrowAltRight className="inline"/> Blog
         </p>
         <h1 className="text-3xl  md:text-4xl lg:text-5xl font-bold mb-4 mt-0 leading-tight sm:leading-snug">
           Want to join partnership?
