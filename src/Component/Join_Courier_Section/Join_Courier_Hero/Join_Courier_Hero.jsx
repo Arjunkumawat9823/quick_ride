@@ -8,13 +8,13 @@ const JoinCourierHero = () => {
         className="absolute inset-0 bg-cover bg-center z-0 w-full"
         style={{
           backgroundImage:
-            "url('https://img.freepik.com/free-photo/handshake-executives_1232-143.jpg?t=st=1739794772~exp=1739798372~hmac=49d54743c4b74ab1f862778f2efbfa2b0cba8203e6269be0aeb4dd8f68e07729&w=826')",
+            "url('https://img.freepik.com/free-photo/men-shake-hands-enclosure-business-agreement-understanding-business-partners_1157-44618.jpg?t=st=1739801744~exp=1739805344~hmac=b60eb4611c6626cdd8404391601184776d565d44ac40ed258cda14b8112dad06&w=996')",
         }}
       >
-        <div className="fixed inset-0  bg-black opacity-5"></div>
+        <div className="fixed inset-0 text-white   opacity-5"></div>
       </div>
 
-      <div className="relative z-10 max-w-xl text-white text-center md:text-left ">
+      <div className="relative z-10 max-w-xl    text-white text-center md:text-left ">
         <p className="mb-6 mt-20 md:mt-20  lg:mt-30 text-sm  ">
           Home = Blog
         </p>
