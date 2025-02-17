@@ -11,24 +11,24 @@ const JoinCourierHero = () => {
             "url('https://img.freepik.com/free-photo/handshake-executives_1232-143.jpg?t=st=1739794772~exp=1739798372~hmac=49d54743c4b74ab1f862778f2efbfa2b0cba8203e6269be0aeb4dd8f68e07729&w=826')",
         }}
       >
-        <div className="fixed inset-0  bg-black opacity-50"></div>
+        <div className="fixed inset-0  bg-black opacity-10"></div>
       </div>
 
       <div className="relative z-10 max-w-2xl text-white text-center md:text-left px-4">
         <p className="mb-6 mt-20 md:mt-20  lg:mt-30 text-sm sm:text-base">Home = Blog</p>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 mt-0 leading-tight sm:leading-snug">
+        <h1 className="text-3xl  md:text-4xl lg:text-5xl font-bold mb-4 mt-0 leading-tight sm:leading-snug">
           Want to join partnership?
         </h1>
-        <p className="text-base sm:text-lg mb-6 lg:pr-20">
+        <p className="text-base sm:text-lg mb-6 lg:text-xl md:pr-100 lg:pr-0 ">
           Egestas sed tempus urna et pharetra pharetra massa. Fermentum posuere
           urna nec tincidunt praesent semper.
         </p>
       </div>
 
       {/* Form Card */}
-      <div className="absolute   top-90 md:top-90   md:right-10 lg:right-10 lg:top-50 z-10 bg-white md:mt-15 md:p-4  lg:mt-20 p-4 sm:p-6  rounded-lg shadow-lg w-full lg:max-w-sm max-w-sm">
+      <div className="absolute   top-90 md:top-50   md:right-5 lg:right-10 lg:top-50 z-10 bg-white md:mt-15 md:p-4  lg:mt-20 p-4 sm:p-6  rounded-lg shadow-lg w-full lg:max-w-sm max-w-sm">
         <h2 className="text-2xl sm:text-xl font-bold mb-4">Join Courier</h2>
-        <p className="text-gray-600 mb-6">
+        <p className="text-gray-600 mb-6 ">
           Egestas sed tempus urna et pharetra pharetra massa.
         </p>
         <form>
@@ -39,7 +39,7 @@ const JoinCourierHero = () => {
             <input
               type="text"
               placeholder=" Enter your name"
-              class="w-full p-2 sm:p-3 md:p-2 border rounded pl-10"
+              class="w-full p-2  md:px-2  border rounded pl-10"
             />
           </div>
 
@@ -50,7 +50,7 @@ const JoinCourierHero = () => {
             <input
               type="text"
               placeholder="Enter your phone"
-              class="w-full p-2 sm:p-3 md:p-2 border rounded pl-10"
+              class="w-full p-2  md:px-2  border rounded pl-10"
             />
           </div>
 
@@ -61,7 +61,7 @@ const JoinCourierHero = () => {
             <input
               type="number"
               placeholder="Enter your password"
-              class="w-full p-2 sm:p-3 md:p-2 border rounded pl-10"
+              class="w-full p-2  md:px-2  border rounded pl-10"
             />
           </div>
 
@@ -72,7 +72,7 @@ const JoinCourierHero = () => {
             <input
               type="password"
               placeholder="Enter your confirm password"
-              class="w-full p-2 sm:p-3 md:p-2 border rounded pl-10"
+              class="w-full p-2  md:px-2  border rounded pl-10"
             />
           </div>
 
@@ -82,7 +82,7 @@ const JoinCourierHero = () => {
             </div>
             <textarea
               placeholder="Enter your message"
-              class="w-full p-2 sm:p-3 md:p-2 min-h-20  max-h-20 border rounded pl-10"
+              class="w-full p-2  md:px-2  min-h-20  max-h-20 border rounded pl-10"
             ></textarea>
           </div>
 
