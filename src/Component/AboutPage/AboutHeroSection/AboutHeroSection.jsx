@@ -19,7 +19,7 @@ const AboutHeroSection = () => {
 
           {/* Heading */}
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black leading-tight my-6">
-            THE BEST  <span className="text-yellow-500">RESTAYRANTS</span> IN YORU HOME
+            THE BEST  <span className="text-yellow-500">RESTAYRANTS</span> IN YOUR HOME
           </h1>
 
           {/* Description */}

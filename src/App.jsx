@@ -11,6 +11,7 @@ import Blog from "./Component/Blog/Blog";
 import Blog_2 from "./Component/Blog_2/Blog_2";
 import Join_Courier from "./Component/Join_Courier_Section/Join_Courier";
 import Windowscrool from "./windowscrool";
+import Faq from "./Component/Faq_Page/Faq";
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -42,6 +43,7 @@ function App() {
         <Route path="/Restaurant/:id" element={<RestaurantDetailPage />} />
         <Route path="/service" element={<Service />} />
         <Route path="/Blog_2" element={<Blog_2 />} />
+        <Route path="/Faq" element={<Faq />} />
         <Route path="/contacts" element={<Contactus />} />
         <Route path="/Join_Courier" element={<Join_Courier />} />
         <Route path="/Join_Courier" element={<Join_Courier />} />

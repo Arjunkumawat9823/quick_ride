@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
+  const [activeTab, setActiveTab] = useState("Delivery");
 
   useEffect(() => {
     setIsMobileMenuOpen(false);
@@ -33,14 +34,14 @@ const Navbar = () => {
       <nav className="text-yellow-400 p-4">
         <div className="w-full flex justify-between items-center">
           {/* Logo */}
-          <div className="text-white text-2xl font-bold">
+          <div className="text-white text-2xl  ">
             <Link to="/">
               <img src={logo} alt="Brand Logo" className="h-12 w-auto lg:pl-10" />
             </Link>
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex space-x-4 lg:mr-[300px] font-roboto font-bold">
+          <div className="hidden lg:flex space-x-4 lg:mr-[200px] font-roboto  ">
             <Link to="/" className="p-2 mx-3 rounded bg-black hover:text-white">Home</Link>
             <Link to="/about" className="p-2 mx-3 rounded bg-black hover:text-white">About Us</Link>
             <Link to="/restourant" className="p-2 mx-3 rounded bg-black hover:text-white flex items-center">
@@ -50,6 +51,7 @@ const Navbar = () => {
             Blog <IoMdArrowDropdown className="ml-1" />
             </Link>
             <Link to="/Blog_2" className="p-2 mx-3 rounded bg-black hover:text-white">Blog-2</Link>
+            <Link to="/Faq" className="p-2 mx-3 rounded bg-black hover:text-white">Faq</Link>
             <Link to="/contacts" className="p-2 mx-3 rounded bg-black hover:text-white">Contacts</Link>
           </div>
 
@@ -106,6 +108,9 @@ const Navbar = () => {
             </div>
             <div className="border-b block">
               <Link to="/Join_Courier" className="block py-4 text-xl rounded hover:underline">Join_Courier</Link>
+            </div>
+            <div className="border-b block">
+              <Link to="/Faq" className="block py-4 text-xl rounded hover:underline">Faq</Link>
             </div>
             <div className="border-b block">
               <Link to="/contacts" className="block py-4 text-xl rounded hover:underline">Contacts</Link>
