@@ -26,12 +26,12 @@ function App() {
   }, []);
   return (
     <BrowserRouter>
-      {/* <div
+      <div
         className="fixed top-0 left-0 w-6 h-6 border-2 z-999 border-blue-500 rounded-full pointer-events-none transition-transform duration-75 ease-out"
         style={{
           transform: `translate(${position.x}px, ${position.y}px)`,
         }}
-      ></div> */}
+      ></div>
       <Windowscrool/>
       <Routes>
         <Route path="/" element={<HomePage />} />
