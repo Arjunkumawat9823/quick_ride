@@ -12,6 +12,8 @@ import Blog_2 from "./Component/Blog_2/Blog_2";
 import Join_Courier from "./Component/Join_Courier_Section/Join_Courier";
 import Windowscrool from "./windowscrool";
 import Faq from "./Component/Faq_Page/Faq";
+import Lunch from "./Component/Lunch/Lunch";
+import Comp from "./Component/Fixed_Comp/Comp";
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -44,10 +46,12 @@ function App() {
         <Route path="/service" element={<Service />} />
         <Route path="/Blog_2" element={<Blog_2 />} />
         <Route path="/Faq" element={<Faq />} />
+        <Route path="/Lunch" element={<Lunch />} />
         <Route path="/contacts" element={<Contactus />} />
         <Route path="/Join_Courier" element={<Join_Courier />} />
         <Route path="/Join_Courier" element={<Join_Courier />} />
        </Routes>
+       <Comp/>
     </BrowserRouter>
   );
 }
