@@ -5,6 +5,7 @@ import Faq_search from "./Faq_search/Faq_search";
 import Question from "./Question_section/Question";
 import Question_Massage from "./Question_Massage/Question_Massage";
 import Footer from "../Homepage/Footer/Footer";
+import Comp from "../Fixed_Comp/Comp";
 
 const Faq = () => {
   return (
@@ -15,6 +16,7 @@ const Faq = () => {
       <Question />
       <Question_Massage />
       <Footer />
+      <Comp/>
     </>
   );
 };

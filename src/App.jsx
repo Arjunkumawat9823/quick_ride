@@ -13,8 +13,6 @@ import Join_Courier from "./Component/Join_Courier_Section/Join_Courier";
 import Windowscrool from "./windowscrool";
 import Faq from "./Component/Faq_Page/Faq";
 import Lunch from "./Component/Lunch/Lunch";
-import Comp from "./Component/Fixed_Comp/Comp";
-
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
@@ -49,9 +47,8 @@ function App() {
         <Route path="/Lunch" element={<Lunch />} />
         <Route path="/contacts" element={<Contactus />} />
         <Route path="/Join_Courier" element={<Join_Courier />} />
-        <Route path="/Join_Courier" element={<Join_Courier />} />
-       </Routes>
-       <Comp/>
+        </Routes>
+    
     </BrowserRouter>
   );
 }

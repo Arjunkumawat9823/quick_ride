@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 
-const LunchOrderItem = () => {
+const Lunch_order_item = () => {
   useEffect(() => {
     AOS.init({ duration: 800 });
   }, []);
@@ -38,7 +38,7 @@ const LunchOrderItem = () => {
   ];
 
   return (
-    <div className="py-12 max-w-7xl mx-auto px-6 md:px-12">
+    <div className="  max-w-7xl mx-auto px-6 md:px-12">
       <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-20">
         Choose Your Perfect Lunch Plan
       </h2>
@@ -84,4 +84,4 @@ const LunchOrderItem = () => {
   );
 };
 
-export default LunchOrderItem;
+export default Lunch_order_item;
