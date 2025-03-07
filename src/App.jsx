@@ -10,7 +10,7 @@ import Service from "./Component/Service/Service";
 import Blog from "./Component/Blog/Blog";
 import Blog_2 from "./Component/Blog_2/Blog_2";
 import Join_Courier from "./Component/Join_Courier_Section/Join_Courier";
-import Windowscrool from "./windowscrool";
+import Windowscrool from "./Windowscrool";
 import Faq from "./Component/Faq_Page/Faq";
 import Lunch from "./Component/Lunch/Lunch";
 function App() {
