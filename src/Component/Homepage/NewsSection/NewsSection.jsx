@@ -4,7 +4,7 @@ import sample from "../../../assets/couriermen.jpg";
 
 const NewsSection = () => {
   return (
-    <div className="max-w-7xl mx-auto px-6 py-12">
+    <div className="max-w-6xl mx-auto px-6 py-12">
       {/* Section Header */}
       <div className="md:flex justify-between grid sm:grid-cols-1 items-center text-center mb-10">
         <h2 className="md:text-3xl text-4xl lg:text-4xl font-bold text-gray-900">
@@ -53,7 +53,7 @@ const NewsSection = () => {
                   <span className="bg-yellow-500 border text-black px-3 py-1 rounded text-xs font-semibold">Cooking</span>
                 </div>
                 <h4 className="font-bold text-sm text-gray-900 mb-2">{title}</h4>
-                <div className="flex items-center text-gray-500 text-xs">
+                <div className="flex items-center text-[11px] text-gray-500  ">
                   <FaUser className="mr-2" /> by Quickeat
                   <FaCalendarAlt className="mx-2" /> 28 Dec, 2022
                   <FaEye className="ml-2 mr-1" /> {index * 20 + 100}

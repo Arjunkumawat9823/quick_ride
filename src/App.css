@@ -609,3 +609,11 @@ a {
 .hori-selector::after {
   right: -10px;
 }
+
+.container ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+ 

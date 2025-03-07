@@ -44,7 +44,7 @@ const RestaurantCard = ({ restaurant }) => (
     <img
       src={restaurant.image}
       alt={`${restaurant.name} Logo`}
-      className="h-80 w-100 md:w-40 md:h-40 lg:w-20 lg:h-20 rounded mb-4 sm:mb-0 sm:mr-4 object-cover"
+      className="h-80 w-100 md:w-20 md:h-20 lg:w-20 lg:h-20 rounded mb-4 sm:mb-0 sm:mr-4 object-cover"
     />
     {/* Details */}
     <div className="flex-1">

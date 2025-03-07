@@ -43,7 +43,7 @@ const Category = () => {
       </h2>
 
       {/* Meal Cards Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-4 gap-6" data-aos="fade-left">
+      <div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-4 gap-6" data-aos="fade-top">
         {meals.map((meal) => (
           <div key={meal.id} className="bg-white p-4 rounded-xl shadow-md w-full max-w-[350px] mx-auto group border">
             <img src={meal.image} alt={meal.name} className="w-full h-40 object-cover rounded-lg mb-4" />

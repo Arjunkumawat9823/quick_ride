@@ -26,7 +26,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex space-x-4 lg:mr-[200px] font-roboto">
+          <div className="hidden  lg:flex space-x-4 lg:mr-[200px] font-roboto">
             {[
               { to: "/", label: "Home" },
               { to: "/about", label: "About Us" },
@@ -35,7 +35,7 @@ const Navbar = () => {
               { to: "/blog_2", label: "Blog-2" },
               { to: "/faq", label: "Faq" },
               { to: "/lunch", label: "Lunch" },
-              { to: "/contacts", label: "Contacts" },
+               { to: "/contacts", label: "Contacts" },
             ].map((item, index) => (
               <Link
                 key={index}

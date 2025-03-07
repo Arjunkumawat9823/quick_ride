@@ -6,7 +6,7 @@ import AboutPage from "./Component/AboutPage/AboutPage";
 import Restaurant from "./Component/RestaurantPage/Index_Restauran"; // Ensure this exists
 import RestaurantDetailPage from "./Component/Restaurant_Detail_Page/RestaurantDetailPage_One";
 import Contactus from "./Component/Contact/Contactus";
- import Service from "./Component/Service/Service";
+import Service from "./Component/Service/Service";
 import Blog from "./Component/Blog/Blog";
 import Blog_2 from "./Component/Blog_2/Blog_2";
 import Join_Courier from "./Component/Join_Courier_Section/Join_Courier";
@@ -32,7 +32,7 @@ function App() {
           transform: `translate(${position.x}px, ${position.y}px)`,
         }}
       ></div>
-      <Windowscrool/>
+      <Windowscrool />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
@@ -47,8 +47,7 @@ function App() {
         <Route path="/Lunch" element={<Lunch />} />
         <Route path="/contacts" element={<Contactus />} />
         <Route path="/Join_Courier" element={<Join_Courier />} />
-        </Routes>
-    
+      </Routes>
     </BrowserRouter>
   );
 }

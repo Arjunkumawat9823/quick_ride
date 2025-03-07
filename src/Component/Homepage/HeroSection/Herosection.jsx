@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion"; // Import Framer Motion
-import heroimg from "../../../assets/hero_img.png";
+import heroimg from "../../../assets/hero_img.avif";
 
 const HeroSection = () => {
   return (
@@ -14,9 +14,9 @@ const HeroSection = () => {
         transition={{ duration: 2 }}
       ></motion.div>
 
-      <div className="max-w-7xl mx-auto px-6 mt-10 md:px-8 flex flex-col lg:flex-row items-center relative z-10">
+      <div className="max-w-7xl mx-auto px-6 mt-10 md:px-8 flex flex-col md:flex-row lg:flex-row md:items-left items-center relative z-10">
         {/* Left Content */}
-        <div className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0 lg:ml-10">
+        <div className="lg:w-1/2 text-center md:text-left mb-8 lg:mb-0 lg:ml-10">
           <motion.h1
             className="text-3xl md:text-4xl lg:text-5xl font-extrabold  leading-tight mb-4"
             initial={{ opacity: 0, x: -50 }}
@@ -30,7 +30,7 @@ const HeroSection = () => {
           <p className="text-white text-sm md:text-base mb-6">
             Experience delicious food from the best restaurants, delivered right to your home.
           </p>
-          <div className="flex flex-col md:flex-row items-center lg:items-start justify-center lg:justify-start space-y-4 md:space-y-0 md:space-x-4">
+          <div className="flex flex-col md:flex-row items-center md:text-left lg:items-start justify-start lg:justify-start space-y-4 md:space-y-0 md:space-x-4">
             <select className="border border-gray-300 bg-white appearance-none rounded-lg px-4 py-2 text-sm w-full md:w-auto shadow-lg">
               <option>Choose a Restaurant</option>
               <option>Jaipur</option>
@@ -50,7 +50,7 @@ const HeroSection = () => {
           <motion.img
             src={heroimg}
             alt="Delivery Person"
-            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg drop-shadow-lg"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg  "
             initial={{ rotateY: 20, scale: 0.9 }}
             animate={{ rotateY: [20, -20, 20], scale: [1, 1.1, 1] }}
             transition={{

@@ -3,7 +3,7 @@ import girl from "../../../assets/Food from your.avif";
 
 const Introsection = () => {
   return (
-    <div className="box flex flex-col lg:flex-row items-center max-w-7xl mx-auto my-10 px-4">
+    <div className="box flex flex-row    md::flex-row md:text-left  lg:flex-row items-center max-w-7xl mx-auto my-10 px-4">
       {/* Left Section */}
       <div
         className="left lg:w-[50%] w-full flex justify-center mb-6 lg:mb-0"
@@ -19,7 +19,7 @@ const Introsection = () => {
       {/* Right Section */}
       <div
         data-aos="zoom-in-up"
-        className="right lg:w-[50%] w-full text-center lg:text-left"
+        className="right lg:w-[50%]  md:text-left  w-full text-center lg:text-left"
       >
         <h1
           className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold my-6 transform transition-all duration-700 ease-in-out 
